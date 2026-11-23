@@ -1,0 +1,387 @@
+======================================
+COLOSSUS AIRLINES - MODULE 3 TEST RESULTS
+======================================
+
+TEST 1: ASSIGNMENTS, ALPHABETICAL SORTING, AND DELETION
+
+=== Colossus Airlines Reservation System ===
+a. Outbound Flight
+b. Inbound Flight
+c. Quit
+Enter your choice: 
+=== Outbound Flights ===
+Available flight numbers: 101, 102
+a. Flight Number
+b. Back to Main
+Enter your choice: Enter flight number: 
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+=== Assign a Seat ===
+Enter seat number (1-128), or 0 to cancel: Enter first name (or 0 to cancel): Enter last name (or 0 to cancel): 
+Seat 10 successfully assigned to John Smith.
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+Number of empty seats: 127
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+=== Assign a Seat ===
+Enter seat number (1-128), or 0 to cancel: Enter first name (or 0 to cancel): Enter last name (or 0 to cancel): 
+Seat 15 successfully assigned to Mary Johnson.
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+=== Assign a Seat ===
+Enter seat number (1-128), or 0 to cancel: Enter first name (or 0 to cancel): Enter last name (or 0 to cancel): 
+Seat 20 successfully assigned to Alex Brown.
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+=== Alphabetical Passenger List ===
+Seat     Last Name            First Name          
+20       Brown                Alex                
+15       Johnson              Mary                
+10       Smith                John                
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+=== Delete a Seat Assignment ===
+Enter seat number (1-128), or 0 to cancel: Deleting reservation for John Smith.
+Seat 10 is now available.
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+Number of empty seats: 126
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+Returning to Main Menu.
+
+=== Colossus Airlines Reservation System ===
+a. Outbound Flight
+b. Inbound Flight
+c. Quit
+Enter your choice: 
+Exiting reservation system.
+
+TEST 2: CANCELLATION AND INVALID SEAT NUMBERS
+
+=== Colossus Airlines Reservation System ===
+a. Outbound Flight
+b. Inbound Flight
+c. Quit
+Enter your choice: 
+=== Outbound Flights ===
+Available flight numbers: 101, 102
+a. Flight Number
+b. Back to Main
+Enter your choice: Enter flight number: 
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+=== Assign a Seat ===
+Enter seat number (1-128), or 0 to cancel: Seat assignment canceled.
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+=== Assign a Seat ===
+Enter seat number (1-128), or 0 to cancel: Invalid seat number. Please choose 1-128.
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+=== Assign a Seat ===
+Enter seat number (1-128), or 0 to cancel: Enter first name (or 0 to cancel): Enter last name (or 0 to cancel): 
+Seat 10 successfully assigned to John Smith.
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+=== Assign a Seat ===
+Enter seat number (1-128), or 0 to cancel: This seat is already assigned.
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+=== Delete a Seat Assignment ===
+Enter seat number (1-128), or 0 to cancel: Seat deletion canceled.
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+=== Delete a Seat Assignment ===
+Enter seat number (1-128), or 0 to cancel: This seat is already empty.
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+=== Delete a Seat Assignment ===
+Enter seat number (1-128), or 0 to cancel: Deleting reservation for John Smith.
+Seat 10 is now available.
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+Number of empty seats: 128
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+Returning to Main Menu.
+
+=== Colossus Airlines Reservation System ===
+a. Outbound Flight
+b. Inbound Flight
+c. Quit
+Enter your choice: 
+Exiting reservation system.
+
+TEST 3: INDEPENDENT FLIGHT RESERVATIONS
+
+=== Colossus Airlines Reservation System ===
+a. Outbound Flight
+b. Inbound Flight
+c. Quit
+Enter your choice: 
+=== Outbound Flights ===
+Available flight numbers: 101, 102
+a. Flight Number
+b. Back to Main
+Enter your choice: Enter flight number: 
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+=== Assign a Seat ===
+Enter seat number (1-128), or 0 to cancel: Enter first name (or 0 to cancel): Enter last name (or 0 to cancel): 
+Seat 5 successfully assigned to Jane Doe.
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+Returning to Main Menu.
+
+=== Colossus Airlines Reservation System ===
+a. Outbound Flight
+b. Inbound Flight
+c. Quit
+Enter your choice: 
+=== Inbound Flights ===
+Available flight numbers: 201, 202
+a. Flight Number
+b. Back to Main
+Enter your choice: Enter flight number: 
+=== Flight 201 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+Number of empty seats: 128
+
+=== Flight 201 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+Returning to Main Menu.
+
+=== Colossus Airlines Reservation System ===
+a. Outbound Flight
+b. Inbound Flight
+c. Quit
+Enter your choice: 
+=== Outbound Flights ===
+Available flight numbers: 101, 102
+a. Flight Number
+b. Back to Main
+Enter your choice: Enter flight number: 
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+Number of empty seats: 127
+
+=== Flight 101 Reservation Menu ===
+a. Show number of empty seats
+b. Show list of empty seats
+c. Show alphabetical list of seats
+d. Assign a customer to a seat
+e. Delete a seat assignment
+f. Return to Main Menu
+Enter your choice: 
+Returning to Main Menu.
+
+=== Colossus Airlines Reservation System ===
+a. Outbound Flight
+b. Inbound Flight
+c. Quit
+Enter your choice: 
+Exiting reservation system.
+
+TEST 4: EMPTY SEAT LIST AND INVALID FLIGHT NUMBER
+
+=== Colossus Airlines Reservation System ===
+a. Outbound Flight
+b. Inbound Flight
+c. Quit
+Enter your choice: 
+=== Outbound Flights ===
+Available flight numbers: 101, 102
+a. Flight Number
+b. Back to Main
+Enter your choice: Enter flight number: 
+Invalid flight number. Please try again.
+
+=== Outbound Flights ===
+Available flight numbers: 101, 102
+a. Flight Number
+b. Back to Main
+Enter your choice: 
+Returning to main menu.
+
+=== Colossus Airlines Reservation System ===
+a. Outbound Flight
+b. Inbound Flight
+c. Quit
+Enter your choice: 
+=== Outbound Flights ===
+Available flight numbers: 101, 102
+a. Flight Number
+b. Back to Main
+Enter your choice: 
+Invalid choice. Please try again.
+
+=== Outbound Flights ===
+Available flight numbers: 101, 102
+a. Flight Number
+b. Back to Main
+Enter your choice: 
+Returning to main menu.
+
+=== Colossus Airlines Reservation System ===
+a. Outbound Flight
+b. Inbound Flight
+c. Quit
+Enter your choice: 
+Invalid choice. Please try again.
+
+=== Colossus Airlines Reservation System ===
+a. Outbound Flight
+b. Inbound Flight
+c. Quit
+Enter your choice: 
+Exiting reservation system.
